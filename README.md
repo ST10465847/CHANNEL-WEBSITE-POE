@@ -34,7 +34,7 @@ The main aim is to create a polished and user-friendly website for Chanel. The w
 - Reflect elegance using a minimalist aesthetic  
 - Establish a framework for styling and interactive elements  
 
-**Key Performance Indicators (KPIs):**  
+**Key Performance:**  
 - Website traffic growth (monthly unique visitors)  
 - Conversion rates (sales, sign-ups)  
 - Average session duration and reduced bounce rate  
@@ -94,4 +94,9 @@ The main aim is to create a polished and user-friendly website for Chanel. The w
 - Home: Hero carousel, featured campaigns, quick links  
 - Collections: Product grids with filtering  
 - About: Interactive timeline  
-- Contact: Map, contact form, FAQs  
+- Contact: Map, contact form, FAQs
+
+- HOW TO RUN
+- download all files into single folder
+- open inde.html in ypur folder
+- navigate wuth the top p menu links 
