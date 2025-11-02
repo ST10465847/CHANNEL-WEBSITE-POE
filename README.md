@@ -99,4 +99,6 @@ The main aim is to create a polished and user-friendly website for Chanel. The w
 - HOW TO RUN
 - download all files into single folder
 - open inde.html in ypur folder
-- navigate wuth the top p menu links 
+- navigate wuth the top p menu links
+
+**enqiry form 
