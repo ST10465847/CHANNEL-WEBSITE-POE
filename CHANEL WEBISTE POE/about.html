@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="about us about chanel banner our storyand our values and twwo images.">
+  <title>Chanel | About</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <h1>CHANEL</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="fragrances-beauty.html">Beauty</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Shopping Cart Sidebar -->
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Shopping Bag</h3>
+      <button class="close-cart">&times;</button>
+    </div>
+    <div class="cart-items">
+      <!-- Cart items will be added here dynamically -->
+    </div>
+    <div class="cart-total">
+      <h4>Total: €0.00</h4>
+      <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/about page 1.jpg" alt="About Chanel" class="hero-image">
+    <div class="hero-content">
+      <h2>ABOUT CHANEL</h2>
+      <p>Elegance, innovation, and timeless style since 1910</p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="about">
+    <div class="container">
+      <div class="about-content">
+        <h2 class="section-title">OUR STORY</h2>
+        <p>Founded in 1910 by Gabrielle "Coco" Chanel in Paris, Chanel revolutionized women's fashion with timeless elegance, simplicity, and innovation. Coco Chanel liberated women from the constraints of the corseted silhouette and popularized a sporty, casual chic as the feminine standard of style.</p>
+        
+        <p>Today, under the creative direction of Virginie Viard, Chanel continues to lead in luxury fashion, accessories, fragrances, and beauty while staying true to the founding principles of elegance, quality, and innovation.</p>
+        
+        <p>The iconic Chanel No. 5 perfume, the little black dress, the Chanel suit, and the 2.55 quilted leather handbag remain timeless symbols of the brand's enduring legacy.</p>
+
+        <h3 class="section-title" style="margin-top: 4rem;">OUR VALUES</h3>
+        <div class="values-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
+          <div class="value-item" style="text-align: center; padding: 2rem; background: var(--charcoal); border: 1px solid rgba(212, 175, 55, 0.2);">
+            <i class="fas fa-crown" style="font-size: 3rem; color: var(--gold); margin-bottom: 1rem;"></i>
+            <h4 style="color: var(--gold); margin-bottom: 1rem;">EXCELLENCE</h4>
+            <p>Uncompromising quality in every detail</p>
+          </div>
+          <div class="value-item" style="text-align: center; padding: 2rem; background: var(--charcoal); border: 1px solid rgba(212, 175, 55, 0.2);">
+            <i class="fas fa-history" style="font-size: 3rem; color: var(--gold); margin-bottom: 1rem;"></i>
+            <h4 style="color: var(--gold); margin-bottom: 1rem;">HERITAGE</h4>
+            <p>Honoring our rich history and traditions</p>
+          </div>
+          <div class="value-item" style="text-align: center; padding: 2rem; background: var(--charcoal); border: 1px solid rgba(212, 175, 55, 0.2);">
+            <i class="fas fa-lightbulb" style="font-size: 3rem; color: var(--gold); margin-bottom: 1rem;"></i>
+            <h4 style="color: var(--gold); margin-bottom: 1rem;">INNOVATION</h4>
+            <p>Pushing boundaries in fashion and beauty</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Images -->
+      <div class="team-images">
+        <img src="images/about page 2.jpg" alt="Chanel Team Member" class="team-img">
+        <img src="images/about page 3.jpg" alt="Chanel Studio" class="team-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-nav">
+      <button class="lightbox-prev">‹</button>
+      <button class="lightbox-next">›</button>
+    </div>
+    <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+  </div>
+
+  <!-- Image Popup -->
+  <div class="image-popup">
+    <button class="popup-close">&times;</button>
+    <img class="popup-image" src="" alt="Popup Image">
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Careers</a>
+      </div>
+      <p class="copyright">&copy; 2025 Chanel. About Us.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

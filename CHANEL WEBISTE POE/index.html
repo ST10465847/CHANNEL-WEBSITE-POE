@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Homepage featuring Chanel's Coco Crush banner, gallery, and campaign highlights.">
+  <title>Chanel | Home</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <h1>CHANEL</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="fragrances-beauty.html">Beauty</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Shopping Cart Sidebar -->
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Shopping Bag</h3>
+      <button class="close-cart">&times;</button>
+    </div>
+    <div class="cart-items">
+      <!-- Cart items will be added here dynamically -->
+    </div>
+    <div class="cart-total">
+      <h4>Total: €0.00</h4>
+      <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/lifestyle home1.jpg" alt="Chanel Coco Crush Collection" class="hero-image">
+    <div class="hero-content">
+      <h2>COCO CRUSH COLLECTION</h2>
+      <p>Discover the essence of timeless elegance</p>
+      <a href="#campaigns" class="hero-btn">DISCOVER NOW</a>
+    </div>
+  </section>
+
+  <!-- Featured Campaigns -->
+  <section class="campaigns" id="campaigns">
+    <div class="container">
+      <h2 class="section-title">FEATURED CAMPAIGNS</h2>
+      <div class="campaign-grid">
+        <div class="campaign-item">
+          <img src="images/lifestyle women shot2.jpg" alt="Luxury Dress" class="campaign-img">
+          <p class="campaign-name">LUXURY DRESS</p>
+        </div>
+        <div class="campaign-item">
+          <img src="images/lifestyle men shot1.jpg" alt="Men's Collection" class="campaign-img">
+          <p class="campaign-name">MEN'S COLLECTION</p>
+        </div>
+        <div class="campaign-item">
+          <img src="images/fragrance hero.jpg" alt="Fragrance" class="campaign-img">
+          <p class="campaign-name">FRAGRANCE</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="campaigns">
+    <div class="container">
+      <h2 class="section-title">GALLERY</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/lifestyle women shot1.jpg" alt="Gallery Image 1" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="images/men outfit2.jpg" alt="Gallery Image 2" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="images/fragrance2.jpg" alt="Gallery Image 3" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="images/men outfit2.jpg" alt="Gallery Image 4" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="images/women outfit 3.jpg" alt="Gallery Image 5" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+          <img src="images/lifestyle home2 .jpg" alt="Gallery Image 6" class="gallery-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-nav">
+      <button class="lightbox-prev">‹</button>
+      <button class="lightbox-next">›</button>
+    </div>
+    <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+  </div>
+
+  <!-- Image Popup -->
+  <div class="image-popup">
+    <button class="popup-close">&times;</button>
+    <img class="popup-image" src="" alt="Popup Image">
+  </div>
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Careers</a>
+      </div>
+      <p class="copyright">&copy; 2025 Chanel. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mens featuring Chanel's mens collection banner,images of mens collection and prices ,and mens style guide .">
+  <title>Chanel | Men</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <h1>CHANEL</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html" class="active">Men</a></li>
+          <li><a href="fragrances-beauty.html">Beauty</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Shopping Cart Sidebar -->
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Shopping Bag</h3>
+      <button class="close-cart">&times;</button>
+    </div>
+    <div class="cart-items">
+      <!-- Cart items will be added here dynamically -->
+    </div>
+    <div class="cart-total">
+      <h4>Total: €0.00</h4>
+      <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/hero men.jpg" alt="Men's Collection" class="hero-image">
+    <div class="hero-content">
+      <h2>MEN'S COLLECTION</h2>
+      <p>Modern sophistication for the contemporary man</p>
+      <a href="#collection" class="hero-btn">VIEW COLLECTION</a>
+    </div>
+  </section>
+
+  <!-- Men's Collection -->
+  <section class="campaigns" id="collection">
+    <div class="container">
+      <h2 class="section-title">MEN'S COLLECTION</h2>
+      <div class="collection-grid">
+        <div class="collection-item">
+          <img src="images/men outfit1.jpg" alt="Tailored Suit" class="collection-img">
+          <p class="campaign-name">TAILORED SUIT</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">€1,250.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/men outfit 2.jpg" alt="Leather Jacket" class="collection-img">
+          <p class="campaign-name">LEATHER JACKET</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R890.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/men outfit2.jpg" alt="Men's Accessories" class="collection-img">
+          <p class="campaign-name">ACCESSORIES</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R850.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/men outfit4.jpg" alt="Casual Wear" class="collection-img">
+          <p class="campaign-name">CASUAL WEAR</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R950.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/men outfit 5.jpg" alt="Footwear" class="collection-img">
+          <p class="campaign-name">FOOTWEAR</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R1800.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/lifestyle men shot2.jpg" alt="Watches" class="collection-img">
+          <p class="campaign-name">LUXURY WATCHES</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R2,500.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Men's Style Guide -->
+  <section class="campaigns" style="background: var(--charcoal);">
+    <div class="container">
+      <h2 class="section-title">MEN'S STYLE GUIDE</h2>
+      <div class="style-tips" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-top: 3rem;">
+        <div class="style-tip" style="text-align: center;">
+          <i class="fas fa-tshirt" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">PERFECT FIT</h3>
+          <p>Discover the art of tailoring and how proper fit elevates your style</p>
+        </div>
+        <div class="style-tip" style="text-align: center;">
+          <i class="fas fa-palette" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">COLOR THEORY</h3>
+          <p>Master color combinations for sophisticated and modern looks</p>
+        </div>
+        <div class="style-tip" style="text-align: center;">
+          <i class="fas fa-layer-group" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">LAYERING</h3>
+          <p>Learn professional layering techniques for all seasons</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-nav">
+      <button class="lightbox-prev">‹</button>
+      <button class="lightbox-next">›</button>
+    </div>
+    <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+  </div>
+
+  <!-- ======= ENHANCED PRODUCT POPUP ======= -->
+<div class="enhanced-popup">
+  <div class="enhanced-popup-content">
+    <button class="enhanced-popup-close">×</button>
+    <img class="enhanced-popup-img" src="" alt="">
+    <h3 class="enhanced-popup-name"></h3>
+    <p class="enhanced-popup-price"></p>
+    <p class="enhanced-popup-description"></p>
+    <button class="add-to-cart-popup">Add to Cart</button>
+    <div class="enhanced-popup-prev">‹</div>
+    <div class="enhanced-popup-next">›</div>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Careers</a>
+      </div>
+      <p class="copyright">&copy; 2025 Chanel. Men's Collection.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

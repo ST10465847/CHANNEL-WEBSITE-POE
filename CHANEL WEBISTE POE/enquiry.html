@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="enquiriesform page with a banner,images with enquiry form,submit enquiry form and WHY MAKE AN ENQUIRY? .">
+  <title>Chanel | Enquiry</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <h1>CHANEL</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="fragrances-beauty.html">Beauty</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="enquiry.html" class="active">Enquiry</a></li>
+          <li class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Shopping Cart Sidebar -->
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Shopping Bag</h3>
+      <button class="close-cart">&times;</button>
+    </div>
+    <div class="cart-items">
+      <!-- Cart items will be added here dynamically -->
+    </div>
+    <div class="cart-total">
+      <h4>Total: €0.00</h4>
+      <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Product Enquiry" class="hero-image">
+    <div class="hero-content">
+      <h2>PRODUCT ENQUIRY</h2>
+      <p>Get detailed information about our products</p>
+    </div>
+  </section>
+
+  <!-- Enquiry Form Section -->
+  <section class="contact">
+    <div class="container">
+      <h2 class="section-title">MAKE AN ENQUIRY</h2>
+      <div class="enquiry-intro" style="text-align: center; max-width: 800px; margin: 0 auto 4rem;">
+        <p style="font-size: 1.2rem;">Interested in a specific product? Our luxury advisors are here to provide you with detailed information, pricing, and availability. Fill out the form below and we'll get back to you within 24 hours.</p>
+      </div>
+
+      <form id="enquiryForm" style="max-width: 800px; margin: 0 auto;">
+        <div class="form-group">
+          <label for="enquiryName">Your Name *</label>
+          <input type="text" id="enquiryName" name="enquiryName" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="enquiryEmail">Your Email *</label>
+          <input type="email" id="enquiryEmail" name="enquiryEmail" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="enquiryPhone">Your Phone *</label>
+          <input type="tel" id="enquiryPhone" name="enquiryPhone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="enquiryProduct">Product Category *</label>
+          <select id="enquiryProduct" name="enquiryProduct" required>
+            <option value="">Select a category</option>
+            <option value="women-fashion">Women's Fashion</option>
+            <option value="men-fashion">Men's Fashion</option>
+            <option value="handbags">Handbags</option>
+            <option value="shoes">Shoes</option>
+            <option value="fragrances">Fragrances</option>
+            <option value="makeup">Makeup</option>
+            <option value="skincare">Skincare</option>
+            <option value="watches">Watches</option>
+            <option value="jewelry">Jewelry</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="enquirySpecific">Specific Product (if known)</label>
+          <input type="text" id="enquirySpecific" name="enquirySpecific" placeholder="e.g., Chanel No. 5, Classic Flap Bag">
+        </div>
+
+        <div class="form-group">
+          <label for="enquiryBudget">Budget Range</label>
+          <select id="enquiryBudget" name="enquiryBudget">
+            <option value="">Select budget range</option>
+            <option value="under-500">Under €500</option>
+            <option value="500-1000">€500 - €1,000</option>
+            <option value="1000-5000">€1,000 - €5,000</option>
+            <option value="5000-10000">€5,000 - €10,000</option>
+            <option value="over-10000">Over €10,000</option>
+            <option value="not-sure">Not sure</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="enquiryTimeline">When are you looking to make a purchase?</label>
+          <select id="enquiryTimeline" name="enquiryTimeline">
+            <option value="">Select timeline</option>
+            <option value="immediately">Immediately</option>
+            <option value="within-week">Within a week</option>
+            <option value="within-month">Within a month</option>
+            <option value="1-3-months">1-3 months</option>
+            <option value="just-browsing">Just browsing for now</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="enquiryMessage">Your Enquiry Details *</label>
+          <textarea id="enquiryMessage" name="enquiryMessage" rows="6" placeholder="Please provide details about the product you're interested in, including any specific questions..." required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label style="display: flex; align-items: center; gap: 1rem;">
+            <input type="checkbox" id="newsletter" name="newsletter" style="width: auto;">
+            <span>Subscribe to our newsletter for exclusive updates and offers</span>
+          </label>
+        </div>
+        
+        <button type="submit" class="hero-btn" style="width: 100%;">
+          <i class="fas fa-paper-plane" style="margin-right: 1rem;"></i>
+          SUBMIT ENQUIRY
+        </button>
+      </form>
+
+      <!-- Confirmation Message -->
+      <div id="enquiryConfirmationMessage" class="confirmation-message">
+        <h3 style="color: var(--gold); margin-bottom: 1rem;">Thank You for Your Enquiry!</h3>
+        <p>We have received your enquiry and one of our luxury advisors will contact you within 24 hours with the information you requested.</p>
+        <p style="margin-top: 1rem; font-style: italic;">For urgent enquiries, please call us at +33 1 42 86 28 00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Enquire Section -->
+  <section class="campaigns" style="background: var(--charcoal);">
+    <div class="container">
+      <h2 class="section-title">WHY MAKE AN ENQUIRY?</h2>
+      <div class="benefits-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-top: 3rem;">
+        <div class="benefit-item" style="text-align: center;">
+          <i class="fas fa-user-tie" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">EXPERT ADVICE</h3>
+          <p>Get personalized recommendations from our luxury fashion advisors</p>
+        </div>
+        <div class="benefit-item" style="text-align: center;">
+          <i class="fas fa-box-open" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">PRODUCT DETAILS</h3>
+          <p>Receive comprehensive information about materials, sizing, and care</p>
+        </div>
+        <div class="benefit-item" style="text-align: center;">
+          <i class="fas fa-shipping-fast" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">AVAILABILITY</h3>
+          <p>Check stock availability and delivery options for your location</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-nav">
+      <button class="lightbox-prev">‹</button>
+      <button class="lightbox-next">›</button>
+    </div>
+    <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+  </div>
+
+  <!-- Image Popup -->
+  <div class="image-popup">
+    <button class="popup-close">&times;</button>
+    <img class="popup-image" src="" alt="Popup Image">
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Careers</a>
+      </div>
+      <p class="copyright">&copy; 2025 Chanel. Product Enquiry.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Enquiry Form Specific JavaScript
+    document.addEventListener('DOMContentLoaded', function() {
+      const enquiryForm = document.getElementById('enquiryForm');
+      const confirmationMessage = document.getElementById('enquiryConfirmationMessage');
+
+      if (enquiryForm) {
+        enquiryForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          
+          // Simple validation
+          let isValid = true;
+          const requiredFields = enquiryForm.querySelectorAll('[required]');
+          
+          requiredFields.forEach(field => {
+            if (!field.value.trim()) {
+              isValid = false;
+              field.style.borderColor = '#ff4444';
+            } else {
+              field.style.borderColor = 'rgba(212, 175, 55, 0.3)';
+            }
+          });
+
+          if (isValid) {
+            // Show confirmation message
+            confirmationMessage.style.display = 'block';
+            
+            // Reset form
+            enquiryForm.reset();
+            
+            // Scroll to confirmation message
+            confirmationMessage.scrollIntoView({ behavior: 'smooth' });
+            
+            // Show notification
+            showNotification('✅ Your enquiry has been submitted! We will contact you within 24 hours.', 'success');
+          } else {
+            showNotification('❌ Please fill in all required fields.', 'error');
+          }
+        });
+      }
+
+      // Reuse the notification function from main script
+      function showNotification(message, type = 'info') {
+        const notif = document.createElement('div');
+        notif.className = 'notification';
+        notif.innerHTML = message;
+        if (type === 'success') {
+          notif.style.borderLeft = '4px solid #4caf50';
+        } else if (type === 'error') {
+          notif.style.borderLeft = '4px solid #f44336';
+        } else {
+          notif.style.borderLeft = '4px solid #ffd700';
+        }
+
+        document.body.appendChild(notif);
+        setTimeout(() => notif.classList.add('show'), 100);
+        setTimeout(() => {
+          notif.classList.remove('show');
+          setTimeout(() => notif.remove(), 500);
+        }, 3000);
+      }
+    });
+  </script>
+  <script src="js/script.js"></script>
+</body>
+</html>

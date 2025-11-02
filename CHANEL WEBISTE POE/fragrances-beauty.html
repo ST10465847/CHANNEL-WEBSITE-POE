@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="fragrance and beauty Chanel's Coco Crush banner,images with fragrances-beauty with prices,WHY CHOOSE CHANEL BEAUTY .">
+  <title>Chanel | Beauty</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <h1>CHANEL</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="fragrances-beauty.html" class="active">Beauty</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Shopping Cart Sidebar -->
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Shopping Bag</h3>
+      <button class="close-cart">&times;</button>
+    </div>
+    <div class="cart-items">
+      <!-- Cart items will be added here dynamically -->
+    </div>
+    <div class="cart-total">
+      <h4>Total: €0.00</h4>
+      <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/fragrance hero.jpg" alt="Fragrances & Beauty" class="hero-image">
+    <div class="hero-content">
+      <h2>FRAGRANCES & BEAUTY</h2>
+      <p>Discover the art of French beauty</p>
+      <a href="#products" class="hero-btn">EXPLORE PRODUCTS</a>
+    </div>
+  </section>
+
+  <!-- Beauty Products -->
+  <section class="campaigns" id="products">
+    <div class="container">
+      <h2 class="section-title">OUR PRODUCTS</h2>
+      <div class="collection-grid">
+        <div class="collection-item">
+          <img src="images/fragrance2.jpg" alt="Signature Perfume" class="collection-img">
+          <p class="campaign-name">CHANEL N°5</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R920.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/products fragrance3.jpg" alt="Luxury Makeup" class="collection-img">
+          <p class="campaign-name">LUXURY MAKEUP</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R85O.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/products fragrance 4.jpg" alt="Skincare Set" class="collection-img">
+          <p class="campaign-name">SKINCARE SET</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R9500.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/products fragrance1..jpg" alt="Elegant Fragrance" class="collection-img">
+          <p class="campaign-name">COCO MADEMOISELLE</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R935.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/fragrance2.jpg" alt="Limited Edition" class="collection-img">
+          <p class="campaign-name">LIMITED EDITION</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R1800.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/products collection1.jpg" alt="Beauty Collection" class="collection-img">
+          <p class="campaign-name">BEAUTY COLLECTION</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R950.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beauty Features -->
+  <section class="campaigns" style="background: var(--charcoal);">
+    <div class="container">
+      <h2 class="section-title">WHY CHOOSE CHANEL BEAUTY</h2>
+      <div class="features-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-top: 3rem;">
+        <div class="feature-item" style="text-align: center;">
+          <i class="fas fa-flask" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">INNOVATIVE FORMULAS</h3>
+          <p>Cutting-edge skincare and makeup technology backed by scientific research</p>
+        </div>
+        <div class="feature-item" style="text-align: center;">
+          <i class="fas fa-leaf" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">LUXURY INGREDIENTS</h3>
+          <p>Only the finest, responsibly sourced ingredients in every product</p>
+        </div>
+        <div class="feature-item" style="text-align: center;">
+          <i class="fas fa-award" style="font-size: 3rem; color: var(--gold); margin-bottom: 1.5rem;"></i>
+          <h3 style="color: var(--gold); margin-bottom: 1rem;">EXPERT CRAFTSMANSHIP</h3>
+          <p>Meticulously crafted products that deliver exceptional results</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-nav">
+      <button class="lightbox-prev">‹</button>
+      <button class="lightbox-next">›</button>
+    </div>
+    <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+  </div>
+
+  <!-- ======= ENHANCED PRODUCT POPUP ======= -->
+<div class="enhanced-popup">
+  <div class="enhanced-popup-content">
+    <button class="enhanced-popup-close">×</button>
+    <img class="enhanced-popup-img" src="" alt="">
+    <h3 class="enhanced-popup-name"></h3>
+    <p class="enhanced-popup-price"></p>
+    <p class="enhanced-popup-description"></p>
+    <button class="add-to-cart-popup">Add to Cart</button>
+    <div class="enhanced-popup-prev">‹</div>
+    <div class="enhanced-popup-next">›</div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Careers</a>
+      </div>
+      <p class="copyright">&copy; 2025 Chanel. Fragrances & Beauty.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

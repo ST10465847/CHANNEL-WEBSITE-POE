@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="contact page with gett in touch banner and a contact information and a send a messge form our location .">
+  <title>Chanel | Contact</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <h1>CHANEL</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="women.html">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="fragrances-beauty.html">Beauty</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Shopping Cart Sidebar -->
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Shopping Bag</h3>
+      <button class="close-cart">&times;</button>
+    </div>
+    <div class="cart-items">
+      <!-- Cart items will be added here dynamically -->
+    </div>
+    <div class="cart-total">
+      <h4>Total: €0.00</h4>
+      <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/contact page.jpg" alt="Contact Chanel" class="hero-image">
+    <div class="hero-content">
+      <h2>GET IN TOUCH</h2>
+      <p>We'd love to hear from you</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact">
+    <div class="container">
+      <h2 class="section-title">CONTACT US</h2>
+      <div class="contact-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+        <div>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Your Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Your Phone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a subject</option>
+                <option value="general">General Inquiry</option>
+                <option value="product">Product Information</option>
+                <option value="order">Order Support</option>
+                <option value="wholesale">Wholesale Inquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <button type="submit" class="hero-btn">SEND MESSAGE</button>
+          </form>
+
+          <!-- Confirmation Message -->
+          <div id="confirmationMessage" class="confirmation-message">
+            <p>Thank you for reaching out! We look forward to attending to your message.</p>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <h3 style="color: var(--gold); margin-bottom: 2rem; font-size: 1.5rem;">CONTACT INFORMATION</h3>
+          
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: var(--gold); margin-bottom: 1rem;"><i class="fas fa-map-marker-alt" style="margin-right: 1rem;"></i>MAIN BOUTIQUE</h4>
+            <p>31 Rue Cambon<br>75001 Paris, France</p>
+          </div>
+          
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: var(--gold); margin-bottom: 1rem;"><i class="fas fa-phone" style="margin-right: 1rem;"></i>PHONE</h4>
+            <p>+33 1 42 86 28 00</p>
+          </div>
+          
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: var(--gold); margin-bottom: 1rem;"><i class="fas fa-envelope" style="margin-right: 1rem;"></i>EMAIL</h4>
+            <p>contact@chanel.com</p>
+          </div>
+          
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: var(--gold); margin-bottom: 1rem;"><i class="fas fa-clock" style="margin-right: 1rem;"></i>BUSINESS HOURS</h4>
+            <p>Monday - Saturday: 10:00 - 19:00<br>Sunday: 11:00 - 18:00</p>
+          </div>
+
+          <div class="social-links" style="margin-top: 3rem;">
+            <h4 style="color: var(--gold); margin-bottom: 1rem;">FOLLOW US</h4>
+            <div style="display: flex; gap: 1rem;">
+              <a href="#" style="color: var(--gold); font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+              <a href="#" style="color: var(--gold); font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+              <a href="#" style="color: var(--gold); font-size: 1.5rem;"><i class="fab fa-twitter"></i></a>
+              <a href="#" style="color: var(--gold); font-size: 1.5rem;"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Embedded Map -->
+      <div class="map-container">
+        <h3 style="text-align: center; color: var(--gold); margin-bottom: 2rem; font-size: 1.5rem;">OUR LOCATION</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9916256937595!2d2.292292615674389!3d48.85837007928746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe1b3f1b1c1%3A0x1e3b9d7a8a0a0a0a!2s31%20Rue%20Cambon%2C%2075001%20Paris%2C%20France!5e0!3m2!1sen!2sus!4v1634070371280!5m2!1sen!2sus" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-nav">
+      <button class="lightbox-prev">‹</button>
+      <button class="lightbox-next">›</button>
+    </div>
+    <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+  </div>
+
+  <!-- Image Popup -->
+  <div class="image-popup">
+    <button class="popup-close">&times;</button>
+    <img class="popup-image" src="" alt="Popup Image">
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Careers</a>
+      </div>
+      <p class="copyright">&copy; 2025 Chanel. Contact Us.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Womens html featuring Chanel's womens banner with view collection button,images with prices.">
+  <title>Chanel | Women</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <h1>CHANEL</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="women.html" class="active">Women</a></li>
+          <li><a href="men.html">Men</a></li>
+          <li><a href="fragrances-beauty.html">Beauty</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="cart-icon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count">0</span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Shopping Cart Sidebar -->
+  <div class="cart-sidebar">
+    <div class="cart-header">
+      <h3>Your Shopping Bag</h3>
+      <button class="close-cart">&times;</button>
+    </div>
+    <div class="cart-items">
+      <!-- Cart items will be added here dynamically -->
+    </div>
+    <div class="cart-total">
+      <h4>Total: €0.00</h4>
+      <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/hero women hero.jpg" alt="Women's Collection" class="hero-image">
+    <div class="hero-content">
+      <h2>WOMEN'S COLLECTION</h2>
+      <p>Timeless elegance redefined</p>
+      <a href="#collection" class="hero-btn">VIEW COLLECTION</a>
+    </div>
+  </section>
+
+  <!-- Women's Collection -->
+  <section class="campaigns" id="collection">
+    <div class="container">
+      <h2 class="section-title">WOMEN'S COLLECTION</h2>
+      <div class="collection-grid">
+        <div class="collection-item">
+          <img src="images/women outfit 1.jpg" alt="Luxury Dress" class="collection-img">
+          <p class="campaign-name">LUXURY DRESS</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/women outfit 2.jpg" alt="Designer Handbag" class="collection-img">
+          <p class="campaign-name">HANDBAG</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R990.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/women outfit 3.jpg" alt="Fashion Accessories" class="collection-img">
+          <p class="campaign-name">ACCESSORIES</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R1,900.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/women outfit 4.jpg" alt="Evening Gown" class="collection-img">
+          <p class="campaign-name">EVENING GOWN</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R2,890.00</p>
+        </div>
+        <div class="collection-item">
+          <img src="images/women outfit 5.jpg" alt="Chic Coat" class="collection-img">
+          <p class="campaign-name">CHIC COAT</p>
+          <p class="product-price" style="color: var(--gold); margin-top: 0.5rem;">R1,190.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close">&times;</button>
+    <div class="lightbox-nav">
+      <button class="lightbox-prev">‹</button>
+      <button class="lightbox-next">›</button>
+    </div>
+    <img class="lightbox-content" id="lightbox-img" alt="Lightbox Image">
+  </div>
+
+  <!-- ======= ENHANCED PRODUCT POPUP ======= -->
+<div class="enhanced-popup">
+  <div class="enhanced-popup-content">
+    <button class="enhanced-popup-close">×</button>
+    <img class="enhanced-popup-img" src="" alt="">
+    <h3 class="enhanced-popup-name"></h3>
+    <p class="enhanced-popup-price"></p>
+    <p class="enhanced-popup-description"></p>
+    <button class="add-to-cart-popup">Add to Cart</button>
+    <div class="enhanced-popup-prev">‹</div>
+    <div class="enhanced-popup-next">›</div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Careers</a>
+      </div>
+      <p class="copyright">&copy; 2025 Chanel. Women's Collection.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
