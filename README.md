@@ -1,104 +1,235 @@
-# CHANNEL-WEBSITE-POE
-# 1. Organization Overview
+A sophisticated, fully-responsive e-commerce website for Chanel featuring premium black and gold design, interactive shopping features, and seamless user experience across all devices.
 
-**Name:** Chanel  
+ Project Overview
+Academic Project - This is a hypothetical academic project demonstrating modern web development practices for luxury e-commerce platforms. Not an official Chanel website.
 
-**History:**  
-Founded in 1910 by Gabrielle “Coco” Chanel in Paris, the brand transformed women’s fashion with timeless elegance, simplicity, and innovation. Today, Chanel is a global luxury fashion house offering haute couture, ready-to-wear, handbags, accessories, fragrances, and beauty products.  
+Business Context:
 
-**Mission Statement:**  
-To inspire individuality and timeless style through innovative, elegant, and high-quality fashion.  
+# Organization: Chanel
 
-**Vision Statement:**  
-To remain the leading luxury brand globally, blending tradition and innovation while embodying elegance, exclusivity, and sustainability.  
+History: Founded in 1910 by Gabrielle "Coco" Chanel
 
-**Target Audience:**  
-- Elite individuals seeking high-end fashion  
-- Fashion enthusiasts who admire premium apparel and accessories  
-- Both new and loyal Chanel customers who prefer online shopping  
+Mission: Inspire individuality through timeless, elegant fashion
 
-> **Note:** This proposal is a hypothetical academic project and does not represent an official project by Chanel.
+Target Audience: Elite fashion enthusiasts seeking luxury apparel and accessories
 
----
+ Features
+ E-commerce Capabilities
+Interactive Shopping Cart with local storage persistence
 
-## 2. Project Objectives
+Enhanced Product Popups with navigation
 
-The main aim is to create a polished and user-friendly website for Chanel. The website highlights Chanel’s apparel lines, accessories, fragrances, and company history, offering a premium digital experience.
+Real-time Price Display and cart updates
 
----
+Add to Cart functionality with notifications
 
-## 3. Website Goals
+ Luxury Design
+Premium Black & Gold color scheme
 
-- Create a clean HTML base displaying Chanel’s high-end collections  
-- Easy navigation across categories: Women, Men, Beauty  
-- Reflect elegance using a minimalist aesthetic  
-- Establish a framework for styling and interactive elements  
+CSS Glowing Effects and smooth animations
 
-**Key Performance:**  
-- Website traffic growth (monthly unique visitors)  
-- Conversion rates (sales, sign-ups)  
-- Average session duration and reduced bounce rate  
-- Customer feedback and satisfaction surveys  
+Responsive Grid Layouts using CSS Grid and Flexbox
 
----
+Elegant Typography (Cormorant Garamond)
 
-## 4. Research and Content Gathering
+ User Experience
+Lightbox Image Gallery for immersive viewing
 
-- Analysis of official Chanel website for inspiration  
-- Study of luxury brand competitors (Louis Vuitton, Dior, Gucci)  
-- Collection of professional product images (clothing, accessories, fragrances)  
-- Gathering brand history, text, and descriptions  
+Smooth Scrolling Navigation
 
----
+Form Validation with user feedback
 
-## 5. Proposed Website Structure
+Mobile-First Responsive Design
 
-**Home**  
-- Hero carousel displaying latest collections  
-- Seasonal campaigns  
-- Quick links to Women, Men, Beauty  
-- Optional “Look of the Day” feature  
+Cross-browser Compatibility
 
-**Women’s Collection**  
-- Luxury clothing, dresses, handbags, accessories  
-- Filter by category, style, or price  
-- Limited editions and collaborations  
+Technical Excellence
+Pure HTML, CSS, Vanilla JavaScript 
 
-**Men’s Collection**  
-- Exclusive clothing, footwear, accessories  
-- Spotlight on limited edition capsule collections  
+No Framework Dependency
 
-**Fragrances & Beauty**  
-- Perfumes, skincare, makeup  
-- Tutorials, tips, seasonal highlights  
+Semantic HTML for accessibility
 
-**About Chanel**  
-- Brand history timeline  
-- Values, sustainability initiatives, craftsmanship  
+Local Storage API integration
 
-**Contact**  
-- Store locator  
-- Customer service contact form  
-- FAQs and inquiries  
+📁 Project Structure
+text
+chanel-website/
+├── index.html              # Homepage with hero banner and campaigns
+├── women.html              # Women's collection with products
+├── men.html                # Men's collection with style guide
+├── fragrances-beauty.html  # Beauty products and features
+├── about.html              # Brand story and values
+├── contact.html            # Contact form with map integration
+├── enquiry.html            # Product enquiry system
+├── style/
+│   └── style.css           # Complete styling system
+├── js/
+│   └── script.js           # Interactive functionality
+└── images/                 # Product and lifestyle images
+ Quick Start
+Installation
+Clone or download all files into a single folder
 
----
+Open index.html in your web browser
 
-## 6. Design & User Experience
+Navigate using the top menu links
 
-**Color Scheme:** Black, White, Beige, Gold accents  
-**Typography:** Serif fonts for elegance, Sans-serif for readability  
-**Layout:** Grid-based, sticky navigation bar, mobile-first, responsive  
-**Accessibility:** Alt text, ARIA labels, fast loading  
+No Build Process Required
+Pure frontend implementation
 
-**Wireframes:**  
-- Home: Hero carousel, featured campaigns, quick links  
-- Collections: Product grids with filtering  
-- About: Interactive timeline  
-- Contact: Map, contact form, FAQs
+No dependencies or frameworks required
 
-- HOW TO RUN
-- download all files into single folder
-- open inde.html in ypur folder
-- navigate wuth the top p menu links
+Works directly in modern browsers
 
-**enqiry form 
+ Design System
+Color Palette
+Primary Black: #000000
+
+Luxury Gold: #D4AF37
+
+Charcoal: #1A1A1A
+
+White: #FFFFFF
+
+Typography
+Primary: Cormorant Garamond (Elegant serif)
+
+Secondary: Helvetica Neue (Clean sans-serif)
+
+ Responsive Breakpoints
+Desktop: 1200px+
+
+Tablet: 768px - 1199px
+
+Mobile: 320px - 767px
+
+ Technical Implementation
+Core Technologies
+HTML5 - Semantic structure and accessibility
+
+CSS3 - Grid, Flexbox, Custom Properties, Animations
+
+JavaScript ES6+ - Modern features and APIs
+
+Key Technical Features
+Local Storage API for cart persistence
+
+CSS Custom Properties for consistent theming
+
+Event delegation patterns for efficiency
+
+Modular JavaScript architecture
+
+Responsive image handling
+
+ Pages Overview
+Homepage (index.html)
+Hero banner with Coco Crush collection
+
+Featured campaigns section
+
+Interactive image gallery
+
+Smooth navigation
+
+Women's Collection (women.html)
+Luxury apparel display
+
+Product pricing integration
+
+Enhanced popup functionality
+
+Responsive product grid
+
+Men's Collection (men.html)
+Tailored suits and accessories
+
+Integrated style guide
+
+Product showcases
+
+Professional styling tips
+
+Fragrances & Beauty (fragrances-beauty.html)
+Product showcases with feature highlights
+
+Luxury ingredients information
+
+Expert craftsmanship details
+
+About Chanel (about.html)
+Brand history and heritage
+
+Company values presentation
+
+Team and craftsmanship focus
+
+Contact Page (contact.html)
+Customer service form with validation
+
+Google Maps integration
+
+Store location information
+
+Social media links
+
+Enquiry Form (enquiry.html)
+Detailed product inquiry system
+
+Budget range selection
+
+Purchase timeline options
+
+Comprehensive form validation
+
+ Development
+Browser Support
+Chrome (recommended)
+
+Firefox
+
+Safari
+
+Edge
+
+File Organization
+Separate HTML files for each page
+
+Centralized CSS with variable system
+
+Modular JavaScript functions
+
+Optimized image assets
+
+ Performance Features
+Minified CSS and JavaScript
+
+GPU-accelerated animations
+
+Optimized image loading
+
+Efficient DOM manipulation
+
+Fast loading times
+
+ Contributing
+This academic project demonstrates modern frontend development practices for luxury e-commerce platforms. The code showcases professional-grade implementation without external dependencies.
+
+ License
+Academic Project - Created for educational purposes only
+
+Author
+ST10465847 - Web Development Module
+
+ References
+Chanel Official Website (Design inspiration)
+
+Microsoft Visual Studio Code (Development environment)
+
+The IIE Web Development Module Manual 2025
+
+Modern web development best practices
+
+
+
